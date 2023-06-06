@@ -68,7 +68,7 @@ ax.yaxis.set_visible(False)
 #r.set_clip_on(False)
 
 # Save image
-plt.savefig('bifurcation_diagram_e2.png', bbox_inches='tight')
+plt.savefig('./plots/bifurcation_diagram_e2.png', bbox_inches='tight')
 
 # Cleanup
 del i, iterations, last, n, r, x
